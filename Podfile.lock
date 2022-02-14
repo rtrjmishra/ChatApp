@@ -1,0 +1,30 @@
+PODS:
+  - CLTypingLabel (0.4.0)
+  - InputBarAccessoryView (5.4.0):
+    - InputBarAccessoryView/Core (= 5.4.0)
+  - InputBarAccessoryView/Core (5.4.0)
+  - IQKeyboardManagerSwift (6.5.9)
+  - MessageKit (3.7.0):
+    - InputBarAccessoryView (~> 5.4.0)
+
+DEPENDENCIES:
+  - CLTypingLabel
+  - IQKeyboardManagerSwift
+  - MessageKit
+
+SPEC REPOS:
+  trunk:
+    - CLTypingLabel
+    - InputBarAccessoryView
+    - IQKeyboardManagerSwift
+    - MessageKit
+
+SPEC CHECKSUMS:
+  CLTypingLabel: 95a7d1faf7e3d1d952cd11cb0491d17d80c50934
+  InputBarAccessoryView: 74d471ab1fa1736806be50328df79257e52865a9
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  MessageKit: 8e76dd8d65ad44b49e1651c673497146416461e9
+
+PODFILE CHECKSUM: 93d6e6c67a42912874ff843bf4e676191475230a
+
+COCOAPODS: 1.11.2
