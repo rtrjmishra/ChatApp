@@ -142,10 +142,12 @@ extension ListVC: UITableViewDataSource, UITableViewDelegate
         tableView.deselectRow(at: indexPath, animated: true)
         
         let vc = ChatVC()
+        vc.idChosen = idArr[indexPath.row]
         vc.title = nameArr[indexPath.row]
         vc.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(backButtonPressed))
         vc.navigationItem.leftBarButtonItem?.tintColor = .darkGray
         vc.navigationItem.largeTitleDisplayMode = .never
+        
         navigationController?.pushViewController(vc, animated: true)
     }
     

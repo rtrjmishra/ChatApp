@@ -5,8 +5,6 @@ target 'ChatApp' do
   use_frameworks!
 	
 pod 'CLTypingLabel'
-pod 'MessageKit'
 pod 'IQKeyboardManagerSwift'
-
 
 end
